@@ -12,8 +12,8 @@ stages:
       - job: PrintMessage
         pool:
           name: Default
-          demands: 
-          - agent.name -equals LAPTOP-LR6RQ93I
+          demands: mycap
+          
         steps:
           - script: echo '****************'
           - script: echo 'starting with test'
